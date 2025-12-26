@@ -1,0 +1,13 @@
+{
+  "nodeModulesDir": "manual",
+  "workspace": [
+    "./packages/*"
+  ],
+  "tasks": {
+    "test": "deno test -A --parallel --coverage",
+    "ok": "deno fmt --check && deno lint && deno check && deno task test"
+  },
+  "publish": {
+    "exclude": ["**/*_test.*"]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "@thai-address/data",
+  "version": "0.2.6",
+  "license": "MIT",
+  "exports": "./mod.ts",
+  "fmt": {
+    "exclude": ["./provinces.js"]
+  }
+}

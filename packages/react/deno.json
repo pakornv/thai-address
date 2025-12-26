@@ -1,0 +1,29 @@
+{
+  "name": "@thai-address/react",
+  "version": "0.2.2",
+  "license": "MIT",
+  "exports": "./mod.ts",
+  "tasks": {
+    "dev": "deno test -A --watch"
+  },
+  "imports": {
+    "@std/assert": "jsr:@std/assert@^1.0.16",
+    "@std/testing": "jsr:@std/testing@^1.0.16",
+    "@testing-library/dom": "npm:@testing-library/dom@^10.4.1",
+    "@testing-library/react": "npm:@testing-library/react@^16.3.1",
+    "@thai-address/data": "jsr:@thai-address/data@^0.2.6",
+    "@types/react": "npm:@types/react@^19.2.7",
+    "global-jsdom": "npm:global-jsdom@^27.0.0",
+    "jsdom": "npm:jsdom@^27.3.0",
+    "react": "npm:react@^19.2.3"
+  },
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "jsxImportSource": "react"
+  },
+  "lint": {
+    "rules": {
+      "tags": ["recommended"]
+    }
+  }
+}
